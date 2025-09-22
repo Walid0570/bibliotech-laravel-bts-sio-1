@@ -59,3 +59,14 @@ Route::get('/a-propos', function () {
 Route::get('/demo/hello/{nom?}', function ($nom = 'Étudiant') {
     return view('demo.hello', ['nom' => $nom]);
 })->name('demo.hello');
+
+// Route des contacts
+Route::get('/contact', function () {
+    return view('contact', [
+        'etablissement' => 'Votre Lycée',
+        'formation' => 'BTS SIO SLAM',
+        'email' => 'contact@votre-lycee.fr',
+        'telephone' => '01 23 45 67 89',
+        'adresse' => '123 Rue de l\'École, 75000 Paris'
+    ]);
+})->name('contact');

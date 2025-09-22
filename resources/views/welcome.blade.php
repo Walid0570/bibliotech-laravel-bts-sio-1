@@ -8,7 +8,7 @@
             <div class="bg-primary text-white rounded-3 p-5 text-center">
                 <h1 class="display-4 mb-3">
                     <i class="fas fa-book-open"></i>
-                    Bienvenue sur BiblioTech
+                    Bienvenue sur BiblioTech de la classe BTS SIO2 par BEKKA Walid
                 </h1>
                 <p class="lead mb-4">
                     Votre système de gestion de bibliothèque moderne, développé avec Laravel
